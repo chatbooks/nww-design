@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NerdWorldWar | NFT Marketplace</title>
+
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Dark Mode JS -->
+    <script src="js/darkMode.bundle.js"></script>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.html" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+  </head>
+
+  <body
+    class="dark:bg-jacarta-900 font-body text-jacarta-500 overflow-x-hidden"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
+    <main>
+      <!-- Login -->
+      <section class="relative h-screen">
+        <div class="lg:flex lg:h-full">
+          <!-- Left -->
+          <div class="relative text-center lg:w-1/2">
+            <img src="img/login.jpg" alt="login" class="absolute h-full w-full object-cover" />
+            <!-- Logo -->
+            <a href="index.html" class="relative inline-block py-36">
+              
+            </a>
+          </div>
+
+          <!-- Right -->
+          <div class="relative flex items-center justify-center p-[10%] lg:w-1/2">
+            <picture class="pointer-events-none absolute inset-0 -z-10">
+              <img src="img/gradient_light.jpg" alt="gradient" class="h-full w-full" />
+            </picture>
+
+            <div class="w-full max-w-[25.625rem] text-center">
+              <h1 class="text-jacarta-700 font-display mb-6 text-4xl" onclick="WalletListVisible(!0)">Sign in</h1>
+
+              <!-- Tabs Nav -->
+              <ul
+                class="nav nav-tabs scrollbar-custom dark:border-jacarta-600 border-jacarta-100 mb-12 flex items-center justify-start overflow-x-auto overflow-y-hidden border-b pb-px md:justify-center"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active hover:text-jacarta-700 text-jacarta-400 relative flex items-center whitespace-nowrap py-3 px-6 dark:hover:text-white"
+                    id="ethereum-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#ethereum"
+                    type="button"
+                    role="tab"
+                    aria-controls="ethereum"
+                    aria-selected="true"
+                  >
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0"
+                      y="0"
+                      viewBox="0 0 1920 1920"
+                      xml:space="preserve"
+                      class="mr-1 mb-[2px] h-4 w-4 fill-current"
+                    >
+                      <path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path>
+                      <path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path>
+                      <path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path>
+                      <path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path>
+                      <path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path>
+                    </svg>
+
+                    <span class="font-display text-base font-medium">Staking</span>
+                  </button>
+                </li>
+                
+              </ul>
+
+              <!-- Tab Content -->
+              <div class="tab-content">
+                <!-- Ethereum -->
+                <div class="tab-pane fade show active" id="anchor" role="tabpanel" aria-labelledby="ethereum-tab">
+                  <button
+                    class="js-wallet bg-accent hover:bg-accent-dark mb-4 flex w-full items-center justify-center rounded-full border-2 border-transparent py-4 px-8 text-center font-semibold text-white transition-all"
+                    data-bs-toggle="modal"
+                    data-bs-target="#walletModal"
+                  >
+                    <img src="anchor.webp" class="mr-2.5 inline-block h-6 w-6" alt="" />
+                    <span>Anchor</span>
+                  </button>
+				  
+
+                </div>
+                <!-- end ethereum -->
+				<div class="tab-pane fade show active" id="wax" role="tabpanel" aria-labelledby="ethereum-tab">
+                  <button
+                    class="js-wallet bg-accent hover:bg-accent-dark mb-4 flex w-full items-center justify-center rounded-full border-2 border-transparent py-4 px-8 text-center font-semibold text-white transition-all"
+                    data-bs-toggle="modal"
+                    data-bs-target="#walletModal"
+                  >
+                    <img src="wax.jpg" class="mr-2.5 inline-block h-6 w-6" alt="" />
+                    <span>Wax Cloud wallet</span>
+                  </button>
+				  
+
+                </div>
+
+                
+                </div>
+                <!-- end wallet connect -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end login -->
+    </main>
+
+    
+
+    <!-- JS Scripts -->
+    <script src="js/app.bundle.js"></script>
+  </body>
+</html>
