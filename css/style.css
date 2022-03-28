@@ -36,7 +36,11 @@ abbr:where([title]) {
 	-webkit-text-decoration: underline dotted;
 	text-decoration: underline dotted
 }
-
+.goldsphere{
+	animation: glow 2s ease-out infinite forwards;
+	margin: -30px auto;
+	margin-bottom: 20px;
+}
 h1,
 h2,
 h3,
