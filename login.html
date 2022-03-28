@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>NerdWorldWar | NFT Marketplace</title>
+    <title>NerdWorldWar | Play To Earn</title>
 
     <meta charset="utf-8" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
@@ -22,13 +22,16 @@
   </head>
 
   <body
-  style="background: url(img/login-bg.png)""
+  style="background: url(img/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto"
     class="dark:bg-jacarta-900 font-body text-jacarta-500 overflow-x-hidden"
     itemscope
     itemtype="http://schema.org/WebPage"
   >
   
-    <center><main>
+  <center>
+    <main>
       <!-- Login -->
     
         
@@ -41,31 +44,10 @@
            
 
             <div class="w-full max-w-[25.625rem] text-center">
-              <h1 class="text-jacarta-700 font-display mb-6 text-4xl" onclick="WalletListVisible(!0)">Sign in</h1>
+              <h1 class="text-jacarta-700 font-display mb-6 text-4xl" style="color:white;">Sign in</h1>
 
               <!-- Tabs Nav -->
-              <ul
-                class="nav nav-tabs scrollbar-custom dark:border-jacarta-600 border-jacarta-100 mb-12 flex items-center justify-start overflow-x-auto overflow-y-hidden border-b pb-px md:justify-center"
-                role="tablist"
-              >
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link active hover:text-jacarta-700 text-jacarta-400 relative flex items-center whitespace-nowrap py-3 px-6 dark:hover:text-white"
-                    id="ethereum-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#ethereum"
-                    type="button"
-                    role="tab"
-                    aria-controls="ethereum"
-                    aria-selected="true"
-                  >
-                    
-
-                  
-                  </button>
-                </li>
-                
-              </ul>
+              
 
               <!-- Tab Content -->
               <div class="tab-content">
@@ -79,11 +61,9 @@
                     <img src="anchor.webp" class="mr-2.5 inline-block h-6 w-6" alt="" />
                     <span>Anchor</span>
                   </button>
-				  
-
                 </div>
                 <!-- end ethereum -->
-				<div class="tab-pane fade show active" id="wax" role="tabpanel" aria-labelledby="ethereum-tab">
+				        <div class="tab-pane fade show active" id="wax" role="tabpanel" aria-labelledby="ethereum-tab">
                   <button
                     class="js-wallet bg-accent hover:bg-accent-dark mb-4 flex w-full items-center justify-center rounded-full border-2 border-transparent py-4 px-8 text-center font-semibold text-white transition-all"
                     data-bs-toggle="modal"
@@ -92,26 +72,13 @@
                     <img src="wax.jpg" class="mr-2.5 inline-block h-6 w-6" alt="" />
                     <span>Wax Cloud wallet</span>
                   </button>
-				  
-
-                </div>
-
-                
-                </div>
+				        </div>
+              </div>
                 <!-- end wallet connect -->
               </div>
-            </div>
           </div>
-        </div>
-
-      </section>
       <!-- end login -->
     </main>
   </center>
-  
-    
-
-    <!-- JS Scripts -->
-    <script src="js/app.bundle.js"></script>
   </body>
 </html>
