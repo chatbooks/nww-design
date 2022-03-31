@@ -41,6 +41,21 @@ abbr:where([title]) {
 	margin: -30px auto;
 	margin-bottom: 20px;
 }
+@keyframes glow{
+	0%{
+	  filter: saturate(50%);
+	  transform: scale(0.8);
+	}
+	50%{
+	  filter: saturate(200%);
+	  transform: scale(1);
+	}
+	100%{
+	  filter: saturate(50%);
+	  transform: scale(0.8);
+	}
+  }
+  
 h1,
 h2,
 h3,
