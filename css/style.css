@@ -36,6 +36,60 @@ abbr:where([title]) {
 	-webkit-text-decoration: underline dotted;
 	text-decoration: underline dotted
 }
+.staking-box{
+
+	align: center;
+	width: 300px;
+	border: 3px solid black;
+	padding: 50px;
+	margin: 20px;
+  }
+  .sbutton {
+	background-color: #4CAF50;/* Green */
+	border: none;
+	color: white;
+	padding: 6px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  .sbutton5 {
+	background-color: #6336e4;
+	color: white;
+	border: 2px solid #555555;
+  border-radius: 12px;
+  }
+  .sbutton5:hover {
+	background-color: #8836d4;
+	color: white;
+  }
+.fbutton {
+	background-color: #4CAF50;/* Green */
+	border: none;
+	color: white;
+	padding: 6px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  .fbutton5 {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+  border-radius: 12px;
+  }
+  .fbutton5:hover {
+	background-color: #555555;
+	color: white;
+  }
 .goldsphere{
 	animation: glow 2s ease-out infinite forwards;
 	margin: -30px auto;
